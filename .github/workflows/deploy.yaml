@@ -1,3 +1,8 @@
+name: deploy
+on: [push]
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
 defaults:
   run:
     working-directory: launchpad
