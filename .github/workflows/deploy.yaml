@@ -10,3 +10,7 @@ steps:
     with:
       path: launchpad/dist
   - uses: actions/deploy-pages@v5
+# tambah di bawah sekali
+permissions:
+  pages: write
+  id-token: write
